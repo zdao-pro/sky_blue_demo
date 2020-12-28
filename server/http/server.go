@@ -12,6 +12,7 @@ var Server *gin.Engine
 //NewServer return web
 func NewServer() *gin.Engine {
 	Server = gin.Default()
+	//注册路由到gin
 	test.RegisterDemoBMServer(Server)
 	return Server
 }

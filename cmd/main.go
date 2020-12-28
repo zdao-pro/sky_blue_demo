@@ -10,6 +10,7 @@ import (
 
 func main() {
 	log.Init(nil)
+	log.Info("start the server....")
 	err := peach.Init(peach.PeachDriverApollo, "zdao_backend.sky_blue")
 	if nil != err {
 		panic(err)

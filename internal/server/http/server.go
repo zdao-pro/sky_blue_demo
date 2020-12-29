@@ -2,7 +2,7 @@ package server
 
 import (
 	"net/http"
-	"sky_blue_demo/api/test"
+	test "sky_blue_demo/api/user"
 
 	"github.com/zdao-pro/sky_blue/pkg/net/http/gin"
 )

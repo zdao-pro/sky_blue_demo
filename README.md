@@ -20,9 +20,9 @@
 
 > powershell(win10)
 ```powershell
-    $env:DEPLOYENV=dev
-	$env:HOSTNAME=user
-	$env:APPID=app
+    $env:DEPLOYENV="dev"
+	$env:HOSTNAME="user"
+	$env:APPID="app"
 ```
 ---
 #### 2 日志模块环境变量配置,详情见[log模块](https://github.com/zdao-pro/sky_blue/blob/main/pkg/log/README.md)
@@ -42,6 +42,14 @@
     export SYSLOG_PORT=1224
 ```
 
+> powershell(win10)
+```powershell
+    $env:UDP_LOG_ADDR="118.178.140.41"
+    $env:UDP_LOG_PORT="1223"
+    $env:SYSLOG_ADDR="118.178.140.41"
+    $env:SYSLOG_PORT="1224"
+```
+
 ---
 #### 3 配置中心环境变量配置,详情见[peach模块](https://github.com/zdao-pro/sky_blue/blob/main/pkg/peach/README.md)
 | 名称 | 说明 |
@@ -53,6 +61,12 @@
 ```bash
     export APOLLO_META_ADDR=118.178.140.41:58079
     export APOLLO_APP_ID=backend_server
+```
+
+> powershell(win10)
+```powershell
+    $env:APOLLO_META_ADDR="118.178.140.41:58079"
+    $env:APOLLO_APP_ID="backend_server"
 ```
 
 ## II. 项目结构介绍
@@ -90,3 +104,5 @@
        (此时您会看到golang nb)
     4. curl -i 'http://127.0.0.1:8080/ping'
 ```
+
+## IV. 其他模块介绍

@@ -1,7 +1,7 @@
 package main
 
 import (
-	server "sky_blue_demo/server/http"
+	server "sky_blue_demo/internal/server/http"
 
 	"github.com/zdao-pro/sky_blue/pkg/log"
 	"github.com/zdao-pro/sky_blue/pkg/peach"
@@ -11,6 +11,7 @@ import (
 func main() {
 	log.Init(nil)
 	log.Info("start the server....")
+	//配置中心初始化,设置apollo作为驱动
 	err := peach.Init(peach.PeachDriverApollo, "zdao_backend.sky_blue")
 	if nil != err {
 		panic(err)

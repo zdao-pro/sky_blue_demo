@@ -18,5 +18,6 @@ func main() {
 	}
 
 	httpServer := server.NewServer()
-	httpServer.Run()
+	//开始运行http server
+	httpServer.Run(":8080")
 }

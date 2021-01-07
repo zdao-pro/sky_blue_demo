@@ -98,7 +98,7 @@
 ```
     1. pull demo代码
        git clone https://github.com/zdao-pro/sky_blue_demo.git
-    2. 替换demo中sky_blue_demo
+    2. 替换demo中sky_blue_demo为新的工程名
        (包括go.mod & demo中其他字段)
     3. go run ./cmd/main.go
        (此时您会看到golang nb)

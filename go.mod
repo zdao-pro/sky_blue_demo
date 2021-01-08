@@ -24,7 +24,7 @@ require (
 	github.com/shima-park/agollo v1.2.7
 	github.com/stretchr/testify v1.6.1
 	github.com/ugorji/go/codec v1.1.7
-	github.com/zdao-pro/sky_blue v1.2.6
+	github.com/zdao-pro/sky_blue v1.2.7
 	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	gopkg.in/yaml.v2 v2.2.8
 )

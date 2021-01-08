@@ -343,6 +343,8 @@ github.com/zdao-pro/sky_blue v1.2.5 h1:Zgz6fjK95ouWvtLM7y/H6u9OFAkOvteYbVDX6X8ex
 github.com/zdao-pro/sky_blue v1.2.5/go.mod h1:b6cusc8s61W2DiB6yc5h3Db7ji0BYd/jFMq2gFWJLPA=
 github.com/zdao-pro/sky_blue v1.2.6 h1:bGTmRX9seVBVg1cgzB0sS/o3DuIGFSsQRjkROSdZeKw=
 github.com/zdao-pro/sky_blue v1.2.6/go.mod h1:b6cusc8s61W2DiB6yc5h3Db7ji0BYd/jFMq2gFWJLPA=
+github.com/zdao-pro/sky_blue v1.2.7 h1:DdbalqqJvF+NsRz4D8YZfxpqSlK18ZN/9WAMBlH5TTg=
+github.com/zdao-pro/sky_blue v1.2.7/go.mod h1:b6cusc8s61W2DiB6yc5h3Db7ji0BYd/jFMq2gFWJLPA=
 go.etcd.io/bbolt v1.3.2/go.mod h1:IbVyRI1SCnLcuJnV2u8VeU0CEYM7e686BmAb1XKL+uU=
 go.etcd.io/bbolt v1.3.4/go.mod h1:G5EMThwa9y8QZGBClrRx5EY+Yw9kAhnjy3bSjsnlVTQ=
 go.etcd.io/etcd v0.0.0-20200402134248-51bdeb39e698/go.mod h1:YoUyTScD3Vcv2RBm3eGVOq7i1ULiz3OuXoQFWOirmAM=

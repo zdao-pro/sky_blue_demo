@@ -1,0 +1,8 @@
+user_server:
+  server:
+    - pre.zhaodao88.com
+  keepalive: 100
+baidu_server:
+  server:
+    - www.baidu.com
+  keepalive: 100

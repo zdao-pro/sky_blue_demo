@@ -4,6 +4,7 @@ import (
 	userSercice "sky_blue_demo/service/user_service"
 
 	"github.com/zdao-pro/sky_blue/pkg/ecode"
+	"github.com/zdao-pro/sky_blue/pkg/log"
 	"github.com/zdao-pro/sky_blue/pkg/net/http/gin"
 )
 
@@ -15,6 +16,9 @@ type RegisterInfo struct {
 
 //注册Controller
 func registerController(c *gin.Context) {
+	//建议使用Infoc,Warnc....,带上参数context,
+	//对于gin来说,gin.Context初始时，c.Context会存储trace对象，方便日志打印trace_id
+	log.Infoc(c.Context, "%s", "hello")
 	var registerParm RegisterInfo
 	//解析请求参数到registerParm
 	err := c.ShouldBindQuery(&registerParm)

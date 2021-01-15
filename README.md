@@ -45,7 +45,7 @@
 > powershell(win10)
 ```powershell
     $env:UDP_LOG_ADDR="118.178.140.41"
-    $env:UDP_LOG_PORT="1223"
+    $env:UDP_LOG_PORT="60000"
     $env:SYSLOG_ADDR="118.178.140.41"
     $env:SYSLOG_PORT="1224"
 ```
